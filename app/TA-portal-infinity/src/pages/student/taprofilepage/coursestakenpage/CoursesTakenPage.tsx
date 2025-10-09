@@ -1,6 +1,6 @@
 import { GenericAPIContainer } from '../../../../utility/genericapicontainer/GenericAPIContainer';
 import { Link, useParams } from 'react-router-dom';
-import StudentTabNav from '../../../../components/layout/tabnav/TabNav'; //
+//import StudentTabNav from '../../../../components/layout/tabnav/TabNav'; //
 import type {
   CourseEnrollmentOverview,
   CourseActive,
@@ -15,7 +15,7 @@ export default function CoursesTakenPage() {
 
   return (
     <div className="mx-auto space-y-6 p-4">
-      <StudentTabNav />
+         {/* <StudentTabNav /> */}
       <h2 className="text-xl font-semibold mb-4">Courses Taken</h2>
 
       <GenericAPIContainer<CourseEnrollmentOverview | null>
