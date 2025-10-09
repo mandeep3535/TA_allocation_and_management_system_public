@@ -1,6 +1,6 @@
 import { GenericAPIContainer } from '../../../../utility/genericapicontainer/GenericAPIContainer';
 import { Link, useParams } from 'react-router-dom';
-import StudentTabNav from '../../../../components/layout/tabnav/TabNav';
+import StudentTabNav from '../../../../components/layout/tabnav/TabNav'; //
 import type {
   CourseEnrollmentOverview,
   CourseActive,
